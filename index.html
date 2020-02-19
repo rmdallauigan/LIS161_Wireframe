@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap_Wireframe</title>
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container bg-light">
+        <div class="row d-flex justify-content-center p-4 bg-info">
+          <h1>User Information</h1>
+        </div>
+
+      <div class="row">
+        <div class="col">
+        <h2 class="text-center p-2">Profile Picture</h2><br>
+        <img src="images/profilepic.jpg" class="img-thumbnail rounded mx-auto d-block"><br>
+        <textarea name="Description" rows="4" cols="35" placeholder="Tell us something about yourself." id="Description"></textarea><br>
+      </div>
+
+        <div class="col">
+          <h2 class="text-center p-2">Basic Information</h2><br><br>
+          <input type="text" class="w-75" name="name" value="Name"><br><br>
+          <input type="date" class="w-75" name="date" value=""><br><br>
+          <textarea name="Address" rows="4" cols="35" placeholder="May we know where you live?"></textarea>
+        </div>
+
+        <div class="col">
+          <h2 class="text-center p-2">Contact Information</h2><br><br><br>
+          <input type="text" class="w-75" name="email" value="Email Address"><br><br>
+          <input type="text" class="w-75" name="mobile" value="Mobile Number">
+        </div>
+      </div>
+
+      <div class="row w-100 d-flex justify-content-center">
+          <button type="button" class="btn btn-primary d-flex align-items-center">Create Profile</button>
+      </div>
+    </div>
+    <!--Bootstrap Javascript Files -->
+    <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js">
+    </script>
+    <script type="text/javascript" src="js/popper.min.js">
+    </script>
+    <script type="text/javascript" src="js/bootstrap.min.js">
+    </script>
+  </body>
+</html>
